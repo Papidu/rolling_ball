@@ -17,6 +17,7 @@ def on_draw():
 def animations(mass, radius, circle_friction, circle_pos, segment_friction, segment_pos):
     '''
         Initialized space, add circle and segment into space.  
+        
     '''
     circle_moment = pymunk.moment_for_circle(mass, 0, 30)
     circle_body = pymunk.Body(mass, circle_moment)
